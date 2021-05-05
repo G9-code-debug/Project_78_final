@@ -1,0 +1,18 @@
+body{
+    background-color: chartreuse;
+}
+#H1{
+    text-align: center;
+    font-family: fantasy;
+}
+.ibox{
+    text-align: center;
+    font-size: medium;
+    font-family: fantasy;
+}
+#image{
+    height: 300px;
+    width: 300px;
+    border-color: aqua;
+    border-style: double;
+}

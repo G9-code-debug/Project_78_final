@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Project 78
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="h1">
+            My Family Book
+        </h1>
+        <img id="image" src="https://www.pngkey.com/png/detail/0-3881_animated-family-clipart-animated-film-family-gif-animation.png">
+        <button onclick="update();" class="ibox">
+            next
+        </button>
+        <h2 id ="h2">
+            Family member name
+        </h2>
+        <script>
+            var images = ["http://www.mgdmni.com/images/chairman.JPG", "blob:https://web.whatsapp.com/bfa66a0f-7cb5-4539-b763-d13d881c63a0", "blob:https://web.whatsapp.com/bfa66a0f-7cb5-4539-b763-d13d881c63a0", "blob:https://web.whatsapp.com/8cb19122-d575-4547-8ac0-579dca230c5e"];
+            var names = ["Dr.Surinder Pal Jassi", "Dr.Amardeep Jassi", "Gunvansh Jassi"];
+            var i = 0;
+            function update() {
+                i++
+                var number_of_family_members = 3;
+                if(i > number_of_family_members);
+                i = 1;
+            }
+            var updated_image = images[i];
+            var updated_name = names[i];
+            document.getElementById("image").src = updated_image;
+            document.getElementById("h2").innerHTML = updated_name;
+        </script>
+    </body>
+</html>
